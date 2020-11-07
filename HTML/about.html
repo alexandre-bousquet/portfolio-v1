@@ -462,7 +462,9 @@
 			document.documentElement.scrollTop = 0;
 		}
 		window.addEventListener("beforeunload", function () {
-			document.body.classList.add("animate-out");
+			var animation = document.getElementsByClassName("corps");
+			animation.classList.add("animate-out");
+			//document.body.classList.add("animate-out");
 		});
 	</script>
 	<script>
