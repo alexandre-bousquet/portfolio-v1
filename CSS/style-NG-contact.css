@@ -1,0 +1,81 @@
+.postule {
+    padding: 20px !important;
+}
+.contacter {
+    background-color: white;
+    text-align: left;
+    border: 2px solid black;
+    padding: 15px;
+    padding-left: 30px;
+}
+input[type="text"], select, textarea {
+    width: 100% !important;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border: 2px solid black;
+	background-color: white !important;
+}
+
+label {
+    color: black !important;
+}
+
+input[type="text"] {
+    padding-left: 12px !important;
+    border: 2px solid black !important;
+    -webkit-box-sizing: inherit !important;
+    box-sizing: inherit !important;
+}
+
+.pl {
+	height:200px;
+}
+
+h2 {
+	color: black;
+}
+
+#submit{
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+    width: 130px;
+    height:30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border:2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+#submit span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+#submit:hover {
+     background-color: black;
+     color: white;
+}
+#submit span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+#submit:hover span {
+    padding-right: 25px;
+    color:white;
+}
+#submit:hover span:after {
+    opacity: 1;
+    right: 0;
+}

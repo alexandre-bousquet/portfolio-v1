@@ -1,0 +1,50 @@
+.exemple1.block {
+    position: relative;
+}
+
+.exemple1 .textes {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.exemple1 img {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 10px;
+}
+
+div.TITRE {
+    text-align:justify;
+    font-size: 30px;
+}
+
+div.TEXT{
+    font-size: 20px;
+}
+
+.box {
+    position: fixed;
+    top: 350px;
+    left: 20px;
+    width: 15%;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 0;
+    background: white;
+	box-shadow: 0px 0px 50px 0px #0ff;
+}
+
+@media screen and (max-width:1000px) {
+    .box{
+		display:none;
+    }
+	.corps {
+		width:100%;
+	}
+}
+
+.none {
+	text-decoration:none;
+	color:black;
+}

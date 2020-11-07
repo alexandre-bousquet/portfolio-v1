@@ -1,0 +1,46 @@
+.imgpresse {
+	width:100%;
+	margin: 5px;
+	border: 1px solid gray;
+	margin-top: 20px;
+	margin-left:0px;
+	margin-right:0px;
+	border:2px solid black;
+}
+
+.text{
+	margin: 15px;
+	width:85%;
+}
+
+@media screen and (max-width:700px) {
+    .text{
+		width:100%;
+    }
+}
+
+.img{
+	margin: 15px;
+	width: 55%;
+}
+
+.tete{
+	background-color: gray;
+	margin: auto;
+	text-align: center;
+	padding:5px;
+	border:2px solid black;
+}
+
+.txt{
+	text-align: justify;
+}
+
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}

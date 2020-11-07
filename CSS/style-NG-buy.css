@@ -1,0 +1,109 @@
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-30 {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-65 {
+  -ms-flex: 65%; /* IE10 */
+  flex: 65%;
+  padding-right:4px;
+}
+
+@media screen and (max-width:1000px) {
+  .col-65{
+    padding-right:0px;
+  }
+	.col-30{
+    padding-bottom:4px;
+  }
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border:2px solid black;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: white;
+  border:2px solid black;
+  color: black;
+  padding: 12px;
+  margin: 10px 0;
+  width: 100%;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: grey;
+  transition:0.3s;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+@media (max-width: 1000px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-65 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .row2 {
+    display: inline;
+  }
+  .col2-65 {
+    margin-bottom: 20px;
+  }
+}

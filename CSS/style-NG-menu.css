@@ -1,0 +1,221 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family:Helvetica;
+}
+
+body { 
+	background-image: url(../Images/bg2.png);
+	/*background-color: grey !important;*/
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center 0px;
+  opacity: 1;
+  transition: 1s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background-image: url(../Images/bg2.png);
+    background-size: 100%;
+    color: white;
+}
+
+.corps {
+	width:60%;
+    background-color: white;
+    padding: 20px;
+    border-right:2px solid black;
+    border-left:2px solid black;
+    margin:auto;
+}
+
+.site-img {
+    background-color: grey;
+    width: 500px;
+    padding: 20px;
+    height:200px;
+}
+
+.bouton {
+	background-color: white;
+	border: none;
+	color: black;
+	text-align: center;
+	font-size: 10px;
+	padding: 5px;
+	width: 130px;
+	height:30px;
+	transition: all 0.5s;
+	cursor: pointer;
+	border:2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bouton span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.bouton:hover {
+	 background-color: black;
+}
+.bouton span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+.bouton:hover span {
+	padding-right: 25px;
+	color:white;
+}
+.bouton:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+@media screen and (max-width: 700px){
+	.box{
+		width: 70%;
+}
+	.popup{
+		width: 70%;
+	}
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    border-bottom:2px solid black;
+    display:flex;
+    justify-content:center;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    box-shadow: inset 2px 0 rgba(255,255,255,0.1),inset -1px 0 rgba(0,0,0,0.3);
+}
+
+.buttonav {
+	box-shadow: inset 2px 0 rgba(255,255,255,0.1),inset -1px 0 rgba(0,0,0,0.3);
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: blue;
+    transition: all 0.3s ease-in-out;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border:2px solid black;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    box-shadow: inset 1px 0 rgba(255,255,255,0.1),inset -1px 0 rgba(0,0,0,0.3);
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*.menu {
+	float:left;
+}
+
+.menu2 {
+	float:right;
+}
+
+
+.left {
+	width:35%;
+}
+
+.middle {
+	width:60%;
+}
+
+.right {
+	width:5%;
+}*/
+
+.center {
+	margin:auto;
+}
+
+.centerT {
+	text-align:center;
+	padding:10px;
+}
+
+.bg-image {
+  background-image: url(../Images/bg2.png);
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.6);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
