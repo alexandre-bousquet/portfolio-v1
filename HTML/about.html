@@ -461,7 +461,7 @@
 			document.documentElement.scrollTop = 0;
 		}
 		window.addEventListener("beforeunload", function () {
-			var animation = document.getElementsByClassName("corps");
+			var animation = document.getElementsByClassName("corps")[0];
 			animation.classList.add("animate-out");
 			//document.body.classList.add("animate-out");
 		});
