@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="../CSS/style-NG-contact.css"/>
 </head>
 
-<body class="animate-in">
+<body>
 
 	<div class="topnav" id="myTopnav">
 		<div id="testJSFill">
@@ -47,7 +47,7 @@
 	-->
 </div>
 
-<div class="corps">
+<div class="corps animate-in">
 
 	<div class="card margT60">
 		<div class="card-content">
@@ -138,8 +138,10 @@
 				document.documentElement.scrollTop = 0;
 			}
 			window.addEventListener("beforeunload", function () {
-				document.body.classList.add("animate-out");
-			});
+			var animation = document.getElementsByClassName("corps");
+			animation.classList.add("animate-out");
+			//document.body.classList.add("animate-out");
+		});
 		</script>
 		<script>
 			function myFunction() {

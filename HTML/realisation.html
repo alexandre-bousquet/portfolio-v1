@@ -18,7 +18,7 @@
 	<link rel="stylesheet" href="../CSS/style-NG-join.css"/>
 </head>
 
-<body class="animate-in">
+<body>
 	<div class="topnav" id="myTopnav">
 		<div id="testJSFill">
 			<a href="../index.html"><i class="fa fa-fw fa-home"></i></a> 
@@ -27,7 +27,6 @@
 			<a href="skills.html">Compétences</a>
 			<a class="active" href="realisation.html">Réalisations</a>
 			<a href="project.html">Projets</a>  
-			<a href="contact.html">Me contacter</a>
 		</div>
 
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
@@ -43,7 +42,7 @@
 		<a value="Open Window" onclick="window.open('https://github.com/alexandre-bousquet')" class="github"><i class="fa fa-github"></i></a>
 	</div>
 
-	<div id="all" class="corps">
+	<div id="all" class="corps animate-in">
 
 		<div class="card margT60">
 			<div class="card-content">
@@ -254,7 +253,9 @@
 			document.documentElement.scrollTop = 0;
 		}
 		window.addEventListener("beforeunload", function () {
-			document.body.classList.add("animate-out");
+			var animation = document.getElementsByClassName("corps");
+			animation.classList.add("animate-out");
+			//document.body.classList.add("animate-out");
 		});
 	</script>
 	<script>
