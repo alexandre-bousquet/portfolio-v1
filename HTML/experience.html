@@ -144,46 +144,7 @@
 	</div>
 
 	<button onclick="topFunction()" id="TOP" class="bouton bouton2 waves-effect waves-light TOP" title="Remonter"><i class="fa fa-arrow-up"></i></button>
-	<script>
-		window.onscroll = function() {scrollFunction()};
-
-		function scrollFunction() {
-			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-				document.getElementById("TOP").style.display = "block";
-			} else {
-				document.getElementById("TOP").style.display = "none";
-			}
-
-			// Fusion de fonctions
-			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-			var scrolled = (winScroll / height) * 100;
-			document.getElementById("myBar").style.width = scrolled + "%";
-			document.getElementById("myTopnav").style.backgroundSize = scrolled + "%";
-			//document.getElementById("myTopnav").style.backgroundColor = "blue";
-
-
-		}
-		function topFunction() {
-			document.body.scrollTop = 0;
-			document.documentElement.scrollTop = 0;
-		}
-		window.addEventListener("beforeunload", function () {
-			var animation = document.getElementsByClassName("corps")[0];
-			animation.classList.add("animate-out");
-			//document.body.classList.add("animate-out");
-		});
-	</script>
-	<script>
-		function myFunction() {
-			var x = document.getElementById("myTopnav");
-			if (x.className === "topnav") {
-				x.className += " responsive";
-			} else {
-				x.className = "topnav";
-			}
-		}
-	</script>
+	<script src="./SCRIPT/script.js"></script> 
 
 </body>
 </html>
