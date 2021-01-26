@@ -1,3 +1,3 @@
-## Page d'accueil du GitHub d'Alexandre Bousquet
+## Eportfolio d'Alexandre Bousquet sur GitHub avec GitHub Pages
 
 Lien vers le site : https://alexandre-bousquet.github.io
