@@ -91,3 +91,29 @@ function myFuncionCardHoverON() {
 function myFuncionCardHoverOFF() {
 	bc.classList.remove("bigCardAll");
 }
+
+/*function changePage(page) {
+	let xhr = new XMLHttpRequest();
+	xhr.open("GET", "https://alexandre-bousquet.github.io/HTML/" + page + ".html", true)
+	xhr.send();
+	console.log(xhr);
+	console.log(xhr.response);
+	console.log(xhr.response.toString());
+	return xhr.response.toString();
+}
+
+function getBody(page) {
+	let content = changePage(page);
+	console.log(content);
+	let x = content.indexOf("<body");
+	console.log(x);
+	x = content.indexOf(">", x);
+	console.log(x);
+	let y = content.lastIndexOf("</body>");
+	console.log(y);
+	return content.slice(x + 1, y);
+}
+
+function getContent(content, target) {
+	target.innerHTML =  getBody(content);
+}*/
