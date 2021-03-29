@@ -12,7 +12,6 @@
     <link href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?9ukd8d" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
     <link href="../CSS/style1.css" rel="stylesheet"/>
-    <link href="../CSS/style-NG-produit.css" rel="stylesheet"/>
     <link href="../CSS/style4.css" rel="stylesheet"/>
     <link href="../CSS/style2.css" rel="stylesheet"/>
     <link href="../CSS/style6.css" rel="stylesheet"/>
@@ -36,14 +35,18 @@
 </div>
 
 <div class="icon-bar">
-    <a class="facebook" onclick="window.open('https://www.facebook.com/profile.php?id=100007110977522')"
-       value="Open Window"><i class="fa fa-facebook"></i></a>
-    <a class="twitter" onclick="window.open('https://twitter.com/worriades')" value="Open Window"><i
-            class="fa fa-twitter"></i></a>
-    <a class="linkedin" onclick="window.open('https://www.linkedin.com/in/alexandre-bousquet-938597168/')"
-       value="Open Window"><i class="fa fa-linkedin"></i></a>
-    <a class="github" onclick="window.open('https://github.com/alexandre-bousquet')" value="Open Window"><i
-            class="fa fa-github"></i></a>
+    <a class="facebook" onclick="window.open('https://www.facebook.com/profile.php?id=100007110977522')" value="Open Window">
+        <i class="fa fa-facebook"></i>
+    </a>
+    <a class="twitter" onclick="window.open('https://twitter.com/worriades')" value="Open Window">
+        <i class="fa fa-twitter"></i>
+    </a>
+    <a class="linkedin" onclick="window.open('https://www.linkedin.com/in/alexandre-bousquet-938597168/')" value="Open Window">
+        <i class="fa fa-linkedin"></i>
+    </a>
+    <a class="github" onclick="window.open('https://github.com/alexandre-bousquet')" value="Open Window">
+        <i class="fa fa-github"></i>
+    </a>
 </div>
 
 <div class="corps animate-in" id="all">
@@ -82,7 +85,7 @@
                         <img alt="Photo de moi (Alexandre)" class="site-img-avatar resize floatL"
                              src="../Images/Alex.jpg">
                         <h2 class="scrollspy" id="about">Alexandre Bousquet</h2>
-                        <p class="grey-text text-darken-1">Etudiant en IUT Informatique à Montpellier </p>
+                        <p class="grey-text text-darken-1">Étudiant en IUT Informatique à Montpellier </p>
                         <p class="grey-text text-darken-1">Programmeur Front-End / Designer UI & UX</p>
                         <ul>
                             <li><span class="profile-title bold">Sexe : </span><span class="profile-desc">Homme</span>
@@ -255,7 +258,7 @@
                         <div class="card-content justify">
                             <p>
                                 Afin de mieux définir ma mentalité ainsi que mes centres d'intérêt, je vous invite à
-                                jetter un oeil au nuage de mots, à la carte mentale, à l'oeuvre d'art qui me représente
+                                jeter un oeil au nuage de mots, à la carte mentale, à l'oeuvre d'art qui me représente
                                 et au portrait chinois
                                 ci-dessous afin de mieux pouvoir cerner mes passions et ma mentalité d'une manière plus
                                 originale. Ces derniers sont des travaux effectués dans le cadre des cours de PPP à
@@ -345,7 +348,7 @@
                             <p>
                                 Durant ma vie, je suis passé par de multiples établissements scolaires qui seront
                                 répertoriés ci-dessous. Si je venais à changer de formation où en faire une nouvelle
-                                après celle actuelle comme par exemple une licence APIDAE (dont je parle dans la setion
+                                après celle actuelle comme par exemple une licence APIDAE (dont je parle dans la section
                                 Projets), elle sera rajoutée ici. N'hésitez pas à déplier les formations ci-dessous afin
                                 d'avoir plus d'informations sur elles.
                             </p>
@@ -452,14 +455,14 @@
                         </article>
                     </section>
                     <script>
-                        var acc = document.getElementsByClassName("accordion");
-                        var i;
+                        let acc = document.getElementsByClassName("accordion");
+                        let i;
 
-                        var eta1 = document.getElementById("iut");
+                        let eta1 = document.getElementById("iut");
                         eta1.onclick = function () {
                             this.classList.toggle("margB15");
                         }
-                        var eta2 = document.getElementById("lyc");
+                        let eta2 = document.getElementById("lyc");
                         eta2.onclick = function () {
                             this.classList.toggle("margB15");
                         }
@@ -471,7 +474,7 @@
                         for (i = 0; i < acc.length; i++) {
                             acc[i].addEventListener("click", function () {
                                 this.classList.toggle("active");
-                                var panel = this.nextElementSibling;
+                                let panel = this.nextElementSibling;
                                 if (panel.style.display === "block") {
                                     panel.style.display = "none";
                                 } else {

@@ -30,38 +30,15 @@ window.addEventListener("beforeunload", function () {
 });
 
 let modal01 = document.getElementById("myModal01");
-let img01 = document.getElementById("myImg01");
-let img02 = document.getElementById("myImg02");
-let img03 = document.getElementById("myImg03");
-let img04 = document.getElementById("myImg04");
 let modalImg01 = document.getElementById("img01");
-let modalImg02 = document.getElementById("img02");
-let modalImg03 = document.getElementById("img03");
-let modalImg04 = document.getElementById("img04");
 let captionText = document.getElementById("caption");
 
-img01.onclick = function() {
-	modal01.style.display = "block";
-	modalImg01.src = this.src;
-	captionText.innerHTML = this.alt;
-}
-
-img02.onclick = function() {
-	modal01.style.display = "block";
-	modalImg01.src = this.src;
-	captionText.innerHTML = this.alt;
-}
-
-img03.onclick = function() {
-	modal01.style.display = "block";
-	modalImg01.src = this.src;
-	captionText.innerHTML = this.alt;
-}
-
-img04.onclick = function() {
-	modal01.style.display = "block";
-	modalImg01.src = this.src;
-	captionText.innerHTML = this.alt;
+for (let i = 0; i < 4; i++) {
+	document.getElementById("myImg0" + (i + 1)).onclick = function() {
+		modal01.style.display = "block";
+		modalImg01.src = this.src;
+		captionText.innerHTML = this.alt;
+	}
 }
 
 let span = document.getElementsByClassName("close")[0];
@@ -97,8 +74,8 @@ function changePage(page) {
 	xhr.open("GET", "https://alexandre-bousquet.github.io/HTML/" + page + ".html", true)
 	xhr.send(null);
 	console.log(xhr);
-	console.log(xhr.response);
-	return xhr.response.toString();
+	console.log(xhr.responseText);
+	return xhr.responseText;
 }
 
 /*function getBody(page) {
