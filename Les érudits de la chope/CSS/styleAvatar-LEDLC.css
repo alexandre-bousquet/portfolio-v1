@@ -1,0 +1,111 @@
+.turn:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.avatar {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+	border:2px solid black;
+}
+.fdp {
+	float:left;
+}
+.expose {
+	text-align:center;
+	color: white;
+}
+img {
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+}
+#conteneur-avatar{
+	height:5px;
+	margin: auto;
+}
+#adresse{
+	height: 5px;
+	float: left;
+	margin-left: 200px;
+}
+#contact{
+	height: 50px;
+	float: right;
+	margin-right: 2px;
+}
+.accordion {
+    background-color: #242424;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+.avs {
+    background-color: black; 
+}
+.active, .accordion:hover {
+    background-color: black; 
+}
+.panel {
+    display: none;
+    background-color: #242424;
+    overflow: hidden;
+}
+button.accordion:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.roster2 {
+	background-color: #242424;
+	text-align:center;
+	padding: 0 5px 5px 5px;
+	margin-left : auto;
+	margin-right : auto;
+}
+.space {
+	padding-right:15px;
+	padding-left:15px;
+}
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+.tablink:hover {
+    background-color: #777;
+}
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}

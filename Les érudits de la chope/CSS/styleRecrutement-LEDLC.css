@@ -1,0 +1,123 @@
+.deathknight { color: #C41F3B }
+.druid { color: #FF7D0A }
+.demon_hunter { color: #A330C9 }
+.hunter { color: #ABD473 }
+.mage { color: #69CCF0 }
+.monk { color: #008467 }
+.paladin { color: #F58CBA }
+.priest { color: #FFFFFF }
+.rogue { color: #FFF569 }
+.shaman { color: #2459FF }
+.warlock { color: #9482CA }
+.warrior { color: #C79C6E }
+
+.Rh {
+	border: 3px solid green;
+	width: 45px;
+	height: 45px;
+}
+.Rm {
+	border: 3px solid yellow;
+	width: 45px;
+	height: 45px;
+}
+.Rl {
+	border: 3px solid red;
+	width: 45px;
+	height: 45px;
+}
+.Rn {
+	border: 2px solid black;
+	width: 45px;
+	height: 45px;
+}
+.flotteleft-recrut {
+	float:left;
+	width: 25px;
+	height: 25px;
+	margin-left:10px;
+}
+.flotteright-recrut {
+	float:right;
+	width: 25px;
+	height: 25px;
+	margin-right:10px;
+}
+.titre-recrut {
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.roster-recrut {
+	width:100%;
+	background-color: #242424;
+	text-align:left;
+	border:2px solid black;
+	padding: 5px;
+}
+.columnL-class {
+	float: left;
+	width: 33.333333333333333333%;
+	padding-right: 2px;
+}
+.columnR-class {
+	float: left;
+	width: 33.333333333333333333%;
+	padding-left: 2px;
+}
+.columnM-class {
+	float: left;
+	width: 33.333333333333333333%;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+	border: 2px solid black;
+}
+input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+	border: 2px solid black;
+	transition: 0.4s;
+}
+input[type=submit]:hover {
+    background-color: black;
+	color:white;
+}
+.postule {
+    background-color: #242424;
+    padding: 20px;
+}
+select.models{
+  display:none;
+}
+select.models.active{
+  display:inline-block;
+}
+.main-recrutL {
+	width:40%;
+	padding:20px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+}
+.main-recrutR {
+	width:60%;
+	padding:20px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+}

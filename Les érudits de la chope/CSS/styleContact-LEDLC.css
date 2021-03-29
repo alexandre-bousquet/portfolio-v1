@@ -1,0 +1,136 @@
+.discord {
+	-webkit-border-image: url(border.png) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(border.png) 30 round; /* Opera 11-12.1 */ 
+    border-image: url(https://worldofwarcraft.akamaized.net/static/components/ArticleTile/ArticleTile-ocho-border.png);
+    border-image-repeat: round;
+    border-image-slice: 130 fill;
+    border-image-width: 60px;
+    border-image-outset: 30px;
+}
+#discord {
+	float: right;
+	width: 400px;
+	height: 400px;
+}
+#pic3-C{
+	position:absolute;
+	top:85%;
+	left:0%;
+	width:100%;
+	margin:auto;
+	height: 66.7833px;
+	width: 100%;
+	transform: scaleX(-1);
+}
+#pic1-C{
+	position: absolute;
+	top: -13%;
+	left: 0%;
+	width:100%;
+	margin: auto;
+	height: 66.7833px;
+	width: 100%;
+}
+.main-contactL {
+	width:85%;
+	padding:20px;
+	padding-top: 35px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+}
+.popup .close-C {
+	position: absolute;
+	top: 18px;
+	right: 10px;
+	transition: all 200ms;
+	font-size: 30px;
+	text-decoration: none;
+	color: grey	;
+}
+.main-contactR {
+	width:15%;
+	padding:20px;
+	padding-top: 35px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+}
+.popup .close-C:hover {
+	color: red;
+}
+.columnL-contact {
+	float: left;
+	width:50%;
+	padding-right: 2px;
+}
+.columnR-contact {
+	float: left;
+	width:50%;
+	padding-left: 2px;
+}
+.columnM-contact {
+	float: left;
+	width:50%;
+	padding-right: 2px;
+}
+.B-W {
+	background-color: white;
+}
+.social-icons {
+	padding: 0!important;
+	margin: 0!important;
+	list-style-type: none!important;
+}
+.social-icons li{
+	float: left!important;
+	margin-right: 2px!important;
+	margin-bottom: 2px!important;
+	padding: 0px!important;
+	display: inline!important;
+	width: auto!important;
+	border:2px solid black;
+}			
+.social-icons li a {
+	-moz-transition: all 0.3s ease 0s;
+	display: block!important;
+	float: left!important;
+	height: 100%!important;
+	margin: 0!important;
+	padding: 0!important;
+	width: 40px!important;
+	height: 40px!important;
+	text-indent: -9999px!important;
+}
+.social-icons li a:hover {
+	background-position: 0 -40px!important;
+}
+.social-icons li a {
+	background-color:transparent;
+}
+.social-icons li.facebook a {
+	background: url(../Images/Icons/facebook.png) no-repeat 0 0;
+}
+.social-icons li.facebook a:hover {
+	background-color: #3b5998;
+}
+.social-icons li.twitter a {
+	background: url(../Images/Icons/twitter.png) no-repeat 0 0;
+}
+.social-icons li.twitter a:hover {
+	background-color: #48c4d2;
+}
+.social-icons li.steam a {
+	background: url(../Images/Icons/steam.png) no-repeat 0 0;
+}
+.social-icons li.steam a:hover {
+	background-color: #242424;
+}
+.social-icons li.youtube a {
+	background: url(../Images/Icons/youtube.png) no-repeat 0 0;
+}
+.social-icons li.youtube a:hover {
+	background-color: #f45750;
+}

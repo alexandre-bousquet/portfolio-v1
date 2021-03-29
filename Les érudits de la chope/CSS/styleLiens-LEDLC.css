@@ -1,0 +1,35 @@
+.row2 > .column {
+	padding: 0 8px;
+}
+.row2:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.column2 {
+	float: left;
+	width: 25%;
+	padding:5px;
+}
+.column3 {
+	float: left;
+	width: 25%;
+	padding:5px;
+	text-align:center;
+}
+.columnL-links {
+	float: left;
+	width: 25%;
+	padding-right: 2px;
+}
+.columnR-links {
+	float: left;
+	width: 25%;
+	padding-left: 2px;
+}
+.columnM-links {
+	float: left;
+	width: 25%;
+	padding-left: 2px;
+	padding-right: 2px;
+}

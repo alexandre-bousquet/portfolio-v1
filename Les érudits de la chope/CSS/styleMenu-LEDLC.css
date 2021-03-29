@@ -1,0 +1,62 @@
+.header {
+	background-color: #f1f1f1;
+	padding: 30px;
+	text-align: center;
+}
+#navbar {
+	background-color: #333;
+	font-family:Verdana;
+	font-size: 0.7em;
+	z-index:10;
+	width:100%;
+	top:0;
+	left:0;
+	position:fixed;
+	padding-top: 2px;
+}
+#navbar a {
+	float: left;
+	height:$nav-height;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	cursor: pointer;
+}
+#navbar a:hover {
+	color: black;
+}
+#navbar a.active {
+	/* background-color: red; */
+	/* color: white; */
+}
+#conteneur-menu{
+	position:relative;
+	margin-top:65px;
+}
+.content {
+	padding: 16px;
+}
+#pic5{
+	position: absolute;
+	top: -25%;
+	left: 0%;
+	width:100%;
+	margin: auto;
+	height: 35px;
+	width: 100%;
+	pointer-events: none;
+}
+#pic6{
+	position:absolute;
+	top:70%;
+	left:0%;
+	width:100%;
+	margin:auto;
+	height: 35px;
+	width: 100%;
+	transform: scaleX(-1);
+	pointer-events: none;
+}
