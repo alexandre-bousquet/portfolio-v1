@@ -43,7 +43,7 @@ for (let i = 0; i < 4; i++) {
 
 let span = document.getElementsByClassName("close")[0];
 
-span.onclick = function() { 
+span.onclick = function() {
 	modal01.style.display = "none";
 }
 
