@@ -33,7 +33,8 @@ let modal01 = document.getElementById("myModal01");
 let modalImg01 = document.getElementById("img01");
 let captionText = document.getElementById("caption");
 
-for (let i = 0; i < 4; i++) {
+for (let i = 0; i < 2; i++) {
+	//for (let i = 0; i < 4; i++) {
 	document.getElementById("myImg0" + (i + 1)).onclick = function() {
 		modal01.style.display = "block";
 		modalImg01.src = this.src;
