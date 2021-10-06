@@ -221,13 +221,17 @@ body.fade-out {
 }
 
 .alert {
-    position: absolute;
-    width: 100%;
-    z-index: 1000;
+    top: 0;
+    width: auto;
+    z-index: 10000;
     padding: 20px;
     background-color: #f44336;
     color: white;
     opacity: 1;
     transition: opacity 0.6s;
     margin-bottom: 15px;
+}
+
+.w100 {
+    width: 100% !important;
 }
